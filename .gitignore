@@ -1,2 +1,3 @@
 # Avoid the data files to be imported
-/data
+data/
+.DS_Store
