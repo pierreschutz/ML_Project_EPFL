@@ -106,3 +106,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+projects/.DS_Store
+projects/project1/.DS_Store
