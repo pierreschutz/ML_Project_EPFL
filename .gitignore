@@ -108,3 +108,6 @@ venv.bak/
 .mypy_cache/
 projects/.DS_Store
 projects/project1/.DS_Store
+projects/project1/.DS_Store
+projects/project1/data/test.csv
+projects/project1/data/submission.csv
