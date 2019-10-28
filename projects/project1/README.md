@@ -52,7 +52,7 @@ The following directory contrains different text documents, code and data files.
 
 ##### Python scripts
 
-- [Implementation.py](./scripts/implementation.py): All possible machine learning models available to use.
+- [Implementations.py](./scripts/implementations.py): All possible machine learning models available to use.
 - [Run.py](./scripts/run.py): Optimal data preprocessing and model to solve the problem.
 
 
