@@ -5,12 +5,13 @@
 ### TODO : 
 
 - Finish to complete the read me file the the *REPORT* and delete the *TODO* section
-- *Rayane & Maxence* : Read all the code files and comment and correct any error / mistakes
-- *Rayane & Maxence* : Read the report and correct any error or mistake
-- *Rayane & Maxence* : Read the README and correct any mistake.
+- **Rayane & Maxence** : Read all the code files and comment and correct any error / mistakes
+- **Rayane & Maxence** : Read the report and correct any error or mistake
+- **Rayane & Maxence** : Read the README and correct any mistake.
 - Run all the ipynb file to have the output and check any error. 
 - Add the report file to the github repo
 - Clean the github repo and it's different branches
+- Add some charts and plots to the report
 
 ### Abstract : 
 
