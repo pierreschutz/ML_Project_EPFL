@@ -11,10 +11,10 @@ def compute_gradient_logistic_loss(y, tx, w):
 	
 def regularized_logistic_regression_loss(y, tx, w, lambda_):
     """Compute the regularized logistic regression loss."""
-    loss = logistic_loss(y, tx, w) + lambda_ * np.squeeze(w.T @ w)
+    loss = logistic_loss(y, tx, w) + (lambda_ / 2) * np.squeeze(w.T @ w)
     return loss
 	
 def compute_gradient_logistic_loss_regularized(y, tx, w, lambda_):
     """Compute the gradient of the regularized logistic regression """
-    grad = compute_gradient_logistic_loss(y, tx, w) + 2 * lambda_ * w
+    grad = compute_gradient_logistic_loss(y, tx, w) + lambda_ * w
     return grad

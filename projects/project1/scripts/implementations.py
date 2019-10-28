@@ -11,10 +11,11 @@ def least_squares_GD(y, tx, initial_w, max_iters, gamma):
     for n_iter in range(max_iters):
 		# Computing the gradient of the MSE loss with respect to vector w
         gradient = compute_gradient_MSE_loss(y, tx, w)
-		# Computing MSE loss
-        loss = MSE_loss(y, tx, w)
 		# Updating the vector w
         w -= gamma * gradient
+        
+    # Computing MSE loss
+    loss = MSE_loss(y, tx, w)
 		
     return w, loss
 	
@@ -31,8 +32,8 @@ def least_squares_SGD(y, tx, initial_w, max_iters, gamma):
 			# Updating the vector w
             w -= gamma * stochastic_gradient
         
-		# Computing the MSE loss
-        loss = MSE_loss(y, tx, w)
+	# Computing the MSE loss
+    loss = MSE_loss(y, tx, w)
 
     return w, loss
 	
