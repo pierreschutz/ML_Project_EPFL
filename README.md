@@ -2,7 +2,7 @@
 
 ## Title : Higgs Boson Machine Learning Challenge
 
-### Team : @rlaraki @jouvemax @pierreschutz
+### Team: [@rlaraki](https://github.com/rlaraki) [@jouvemax](https://github.com/jouvemax) [@pierreschutz](https://github.com/pierreschutz)
 
 ### Abstract :
 
