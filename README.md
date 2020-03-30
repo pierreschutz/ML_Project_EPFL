@@ -2,6 +2,8 @@
 
 ## Title : Higgs Boson Machine Learning Challenge
 
+### Team : @rlaraki @jouvemax @pierreschutz
+
 ### Abstract :
 
 The discovery of the Higgs boson announced July 4, 2012 led to a number of prestigious awards, including a Nobel prize.
